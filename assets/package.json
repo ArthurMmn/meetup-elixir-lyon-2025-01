@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@leeoniya/ufuzzy": "^1.0.18"
+  }
+}

@@ -16,6 +16,7 @@ defmodule LvMeetup.Application do
       {Finch, name: LvMeetup.Finch},
       # Start a worker by calling: LvMeetup.Worker.start_link(arg)
       # {LvMeetup.Worker, arg},
+      LvMeetup.Scrabble,
       # Start to serve requests, typically the last entry
       LvMeetupWeb.Endpoint
     ]

@@ -18,6 +18,11 @@ defmodule LvMeetupWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/maintenance", PageController, :maintenance
+
+    live "/admin", ScrabbleAdminLive
+    live "/scrabble", ScrabbleCheckerLive
+    live "/fuzzy-scrabble", ScrabbleFuzzyLive
   end
 
   # Other scopes may use custom stacks.
